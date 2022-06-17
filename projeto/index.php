@@ -18,16 +18,4 @@ $url = explode('?', $_SERVER['REQUEST_URI']);
         default => erro404()
     };
 
-    // if ($url === '/') {
-    //    include 'telas/home.php';
-    // } elseif ($url === '/cadastro') {
-    //    include 'telas/cadastro.php';
-    // } elseif ($url === '/login') {
-    //     include 'telas/login.php';
-    // } elseif ($url === '/listar') {
-    //     include 'telas/listar.php';
-    // } else {
-    //     include 'telas/404.php';
-    // }
-
     include 'telas/footer.php';
